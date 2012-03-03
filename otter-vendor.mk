@@ -29,4 +29,9 @@ PRODUCT_COPY_FILES := \
 # Pick up overlay for features that depend on non-open-source files
 DEVICE_PACKAGE_OVERLAYS := vendor/amazon/otter/overlay
 
+PRODUCT_PROPERTY_OVERRIDES += \
+     ro.goo.developerid=icsfire \
+     ro.goo.rom=icsfirecm9 \
+     ro.goo.vertsion=$(shell date +%Y%m%d)
+
 $(call inherit-product, vendor/amazon/otter/otter-vendor-blobs.mk)
