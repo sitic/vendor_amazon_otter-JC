@@ -39,7 +39,6 @@ PRODUCT_COPY_FILES  += \
 	vendor/amazon/otter/proprietary/battery_log.sh:/system/bin/battery_log.sh \
 	vendor/amazon/otter/proprietary/klog.sh:/system/bin/klog.sh \
 	vendor/amazon/otter/proprietary/temperature_log.sh:/system/bin/temperature_log.sh \
-	vendor/amazon/otter/proprietary/vold:/system/bin/vold \
 	vendor/amazon/otter/proprietary/touch_firmware.sh:/system/bin/touch_firmware.sh \
 	vendor/amazon/otter/proprietary/firmware.bin:/system/etc/wifi/firmware.bin \
 	vendor/amazon/otter/proprietary/firmware_ap.bin:/system/etc/wifi/softap/firmware_ap.bin \
